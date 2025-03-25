@@ -15,6 +15,7 @@ func init() {
 func main() {
 	r := gin.Default()
 
+	routes.LoginRoutes(r)
 	routes.TodosRoutes(r)
 	routes.EmployeeDemographyRoutes(r)
 
